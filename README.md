@@ -1,16 +1,70 @@
-# React + Vite
+# HOBO – Hostel Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HOBO is a role-based hostel booking platform that allows users to search and book hostels, owners to manage their properties, and admins to manage the system. 
+------------------------------------------------------------------------------------------------------------------------------------------------
+## 🚀 Features
+------------------
+### 👤 User Dashboard
+* Browse available hostels
+* View hostel details
+* Book hostels
+* View and manage bookings
 
-Currently, two official plugins are available:
+### 🏨 Owner Dashboard
+* Add new hostels
+* Manage hostel listings
+* View and manage booking requests
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🛠 Admin Dashboard
+* Manage users
+* Manage hostels
+* Monitor platform activity
+------------------------------------------------------------------------------------------------------------------------------------------------
+## 🧑‍💻 Tech Stack
+------------------
+**Frontend**
+* React.js
+* JavaScript
+* CSS
 
-## React Compiler
+**Backend**
+* Node.js
+* Express.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Database**
+* MongoDB
+------------------------------------------------------------------------------------------------------------------------------------------------
+## 📂 Project Structure
+-------------------------
+hobo-hostel-booking-platform
+│
+├── src
+│   ├── Components
+|   |   |--Button
+|   |   |--Footer
+|   |   |-- HostelCard
+|   |   |--Navbar
+│   │  
+│   │
+│   ├── Context
+│   │
+│   ├── Pages
+│   │   ├── Admin
+│   │   ├── Owner
+│   │   ├── User
+│   │   └── RoleSelect
+│   │
+│   └── Services
+│
+├── public
+├── package.json
+└── README.md
+------------------------------------------------------------------------------------------------------------------------------------------------
+## 📌 Future Improvements
+---------------------------
+* Backend API integration
+* MongoDB database connection
+* Authentication and authorization
+* Payment integration
+* Hostel search and filtering
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
