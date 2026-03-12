@@ -34,32 +34,7 @@ HOBO is a role-based hostel booking platform that allows users to search and boo
 **Database**
 * MongoDB
 ------------------------------------------------------------------------------------------------------------------------------------------------
-## 📂 Project Structure
--------------------------
-hobo-hostel-booking-platform
-│
-├── src
-│   ├── Components
-|   |   |--Button
-|   |   |--Footer
-|   |   |-- HostelCard
-|   |   |--Navbar
-│   │  
-│   │
-│   ├── Context
-│   │
-│   ├── Pages
-│   │   ├── Admin
-│   │   ├── Owner
-│   │   ├── User
-│   │   └── RoleSelect
-│   │
-│   └── Services
-│
-├── public
-├── package.json
-└── README.md
-------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 📌 Future Improvements
 ---------------------------
 * Backend API integration
