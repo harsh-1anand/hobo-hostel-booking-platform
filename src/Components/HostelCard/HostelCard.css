@@ -1,0 +1,21 @@
+.hostel-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .hostel-content {
+    margin-top: 15px;
+  }
+  
+  .hostel-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .price {
+    color: #ff6b35;
+    font-weight: bold;
+  }
