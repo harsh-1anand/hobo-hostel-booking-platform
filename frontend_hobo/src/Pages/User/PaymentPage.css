@@ -1,0 +1,165 @@
+.payment-page-wrapper {
+  background-color: var(--bg-main);
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-container {
+  max-width: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 30px;
+}
+
+.payment-details-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ui-card.summary-card {
+  padding: 25px;
+  border: 1px solid var(--border-card);
+  border-radius: 12px;
+  background-color: var(--bg-card);
+}
+
+.ui-card.summary-card h2 {
+  font-size: 24px;
+  color: var(--accent);
+  margin-bottom: 5px;
+}
+
+.ui-card.summary-card .hostel-address {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.booking-snapshot {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.snapshot-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.snapshot-item span {
+  font-size: 12px;
+  color: #fbbf24;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.snapshot-item strong {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.price-breakdown {
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #cbd5e1;
+}
+
+.price-row.total {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+  margin-top: 5px;
+}
+
+.payment-options-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment-toggle {
+  display: flex;
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.pay-btn {
+  flex: 1;
+  padding: 15px;
+  background: transparent;
+  color: #94a3b8;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pay-btn.active {
+  background: var(--accent);
+  color: black;
+}
+
+.payment-portal {
+  background: var(--bg-card);
+  padding: 25px;
+  border: 1px solid var(--border-card);
+  border-radius: 12px;
+}
+
+.fake-input {
+  width: 100%;
+  padding: 12px 15px;
+  background: var(--bg-main);
+  border: 1px solid var(--border-card);
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.fake-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.flex-inputs {
+  display: flex;
+  gap: 15px;
+}
+
+.secure-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #10b981;
+  font-size: 14px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .payment-container {
+    grid-template-columns: 1fr;
+  }
+}

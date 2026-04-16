@@ -1,0 +1,40 @@
+.skeleton-card {
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--border-card);
+  background-color: var(--bg-card);
+}
+
+.skeleton-image {
+  height: 200px;
+  background: var(--border-card);
+  animation: pulse 1.5s infinite ease-in-out;
+  border-bottom: 1px solid var(--border-card);
+}
+
+.skeleton-line {
+  height: 20px;
+  background: var(--border-card);
+  margin-bottom: 12px;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.title-line { width: 70%; height: 28px; }
+.location-line { width: 50%; height: 16px; margin-bottom: 25px; }
+.price-line { width: 40%; }
+
+.skeleton-btn {
+  height: 40px;
+  width: 100%;
+  background: var(--border-card);
+  border-radius: 8px;
+  margin-top: 15px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.7; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.7; }
+}

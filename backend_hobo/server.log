@@ -1,0 +1,39 @@
+
+> backend_hobo@1.0.0 start
+> node server.js
+
+[dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+✅ MongoDB Connected
+🚀 Server running on port 5000
+BODY RECV: [Object: null prototype] {
+  name: 'Test Property',
+  location: 'Test City',
+  price: '1000',
+  type: 'Boys',
+  availableBeds: '5',
+  description: 'Test Description'
+}
+FILES RECV: []
+BODY RECV: [Object: null prototype] {
+  name: 'hayat',
+  location: 'delhi',
+  price: '4000',
+  type: 'Boys',
+  availableBeds: '19',
+  description: 'Wifi\r\nhousehelp\r\ncctv \r\n'
+}
+FILES RECV: [
+  {
+    fieldname: 'images',
+    originalname: 'WhatsApp Image 2026-04-05 at 00.02.25.jpeg',
+    encoding: '7bit',
+    mimetype: 'image/jpeg',
+    destination: 'uploads/',
+    filename: '1775328114705-648230521.jpeg',
+    path: 'uploads/1775328114705-648230521.jpeg',
+    size: 46194
+  }
+]
+(node:6068) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6068) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
